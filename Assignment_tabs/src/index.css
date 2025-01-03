@@ -1,0 +1,26 @@
+/* Styles pour les onglets */
+.tab-headers {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.tab-header {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  margin-right: 5px;
+}
+
+/* Styles pour l'onglet actif */
+.tab-header.active {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Styles pour le contenu des onglets */
+.tab-content {
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
