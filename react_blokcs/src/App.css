@@ -1,0 +1,41 @@
+.app {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  grid-template-columns: 200px 1fr;
+  height: 100vh;
+}
+
+.header {
+  grid-column: 1 / -1;
+  background-color: #6ca84f;
+  padding: 10px;
+}
+
+.navigation {
+  background-color: #61a0b6;
+  padding: 10px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  background-color: #dddddd;
+  padding: 10px;
+}
+
+.subcontents {
+  display: flex;
+  gap: 10px;
+}
+
+.subcontent {
+  flex: 1;
+  background-color: #f4d66c;
+  padding: 10px;
+}
+
+.advertisement {
+  margin-top: 10px;
+  background-color: #b4a7d6;
+  padding: 10px;
+}
